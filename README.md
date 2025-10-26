@@ -16,13 +16,13 @@ The application can be built using GitHub actions and is set up to trigger a bui
 	
 	Merge https://github.com/haveno-dex/haveno/commit/fc788c6f646fdfb6bf97493d0368101709867174.
 
-2. Open Manta.Remote.csproj in a text editor
+3. Open Manta.Remote.csproj in a text editor
 
     | Property              | Value                                 
     |-----------------------|---------------------------------------
     | DaemonUrl             | Url of where the daemon.jar files are hosted. If you're using GitHub actions, use the url of the release that was created
     | Network               | Change this to XMR_MAINNET
-	| HavenoAppName         | Change this to haveno-[SOMETHING]-node, this works the same as the app data directory for the desktop app
+	| HavenoAppName         | Change this to haveno-Reto-remote-node, this works the same as the app data directory for the desktop app
 
 ## Install
 1. Download one of the releases or build from source
